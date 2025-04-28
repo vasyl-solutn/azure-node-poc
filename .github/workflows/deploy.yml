@@ -23,6 +23,6 @@ jobs:
         with:
           appSourcePath: .
           resourceGroup: poc-rg
-          acrName: nodepocregistry
           containerAppName: node-poc-app
+          acrName: nodepocregistry
           azureCredentials: ${{ secrets.AZURE_CREDENTIALS }}
